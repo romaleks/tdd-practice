@@ -1,6 +1,6 @@
 import reverseString from '../functions/reverseString'
 
-test('Common string', () => {
+test('Default string', () => {
   expect(reverseString('Hello, World!')).toBe('!dlroW ,olleH')
 })
 
